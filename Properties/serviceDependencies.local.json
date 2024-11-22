@@ -9,6 +9,17 @@
       "type": "mssql.local",
       "connectionId": "InitialMovieApp",
       "dynamicId": null
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:MovieAppForGitContext"
+    },
+    "mssql3": {
+      "serviceConnectorResourceId": "",
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "InitialCreate",
+      "dynamicId": null
     }
   }
 }
